@@ -1,0 +1,92 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="yinqi" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+<link rel="stylesheet" type="text/css" href="css/style.min.css" />
+</head>
+<body>
+<header class="lyear-header text-center" style="background-image:url(images/left-bg.jpg);">
+  <div class="lyear-header-container">
+    <div class="lyear-mask"></div>
+    <h1 class="lyear-blogger pt-lg-4 mb-0"><a href="index.html">熬夜</a></h1>
+    <nav class="navbar navbar-expand-lg">
+    <a class="navbar-toggler" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="lyear-hamburger">
+        <div class="hamburger-inner"></div>
+      </div>
+    </a>
+    
+    <div id="navigation" class="collapse navbar-collapse flex-column">
+	  <div class="profile-section pt-3 pt-lg-0">
+	    <img class="profile-image mb-3 rounded-circle mx-auto" src="images/lyear.png" width="120" height="120" alt="笔下光年" >
+	    <div class="lyear-sentence mb-3">纵观人生，悟自生之道，创无极之风，望</div>
+        <hr>
+	  </div>
+	  
+	  <ul class="navbar-nav flex-column text-center">
+	    <li class="nav-item active">
+          <a class="nav-link" href="index.html">首页</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="index.html">技术</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="index.html">感悟</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="about.html">关于我</a>
+	    </li>
+	  </ul>
+	  
+	  <div class="my-2 my-md-3">
+        <form class="lyear-search-form form-inline justify-content-center pt-3">
+          <input type="email" id="semail" name="semail1" class="form-control mr-md-1" placeholder="搜索关键词" />
+        </form>
+	  </div>
+	</div>
+  </nav>
+  </div>
+</header>
+<div class="lyear-wrapper">
+  <section class="mt-5 pb-5">
+    <div class="container">
+      <div class="row">
+        <!-- 文章列表 -->
+        <div class="col-12">
+
+          <article class="lyear-arc">
+            <div class="lyear-arc-detail">
+              <h5 class="text-center mt-0 mb-3 pb-3">关于我</h5>
+              <p>字体图标采用Material Design Icons<a href="http://fontello.com/" target="_blank">http://fontello.com/</a>网站可以打包下载自己所需要的字体图标，这样就会大大减小字体图标的加载时间。</p>
+              <h6><strong>特别鸣谢</strong></h6>
+              <ul>
+                <li>guangming</li>
+              </ul>
+            </div>
+          </article>
+          
+        </div>
+        <!-- 内容 end -->
+        
+      </div>
+
+    </div>
+    <!-- end container -->
+  </section>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>
